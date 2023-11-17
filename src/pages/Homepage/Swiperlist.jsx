@@ -17,7 +17,7 @@ import img from "../../imgs/img.png";
 import { useEffect, useState } from "react";
 
 
-export const Swiperlist = ({tital1,tital2}) => {
+ const Swiperlist = ({tital1,tital2}) => {
   const [numShow, setNumShow] = useState(4)
 
 // ตรวจสอบขนานหน้าจอเพื่อเเสดง
@@ -97,3 +97,5 @@ export const Swiperlist = ({tital1,tital2}) => {
       </Stack>
   )
 }
+
+export default Swiperlist

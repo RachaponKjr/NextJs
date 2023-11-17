@@ -13,7 +13,7 @@ import Image from 'next/image';
 
 import img from "../../imgs/img.png"
 
-export const Review = () => {
+ const Review = () => {
   return (
     <Stack py={4} px={2} display={"flex"} flexdirection={"column"} h={"min-content"} spacing={2}>
       <Box display={"flex"} justifyContent={"space-between"}>
@@ -81,3 +81,5 @@ export const Review = () => {
       </Stack>
   )
 }
+
+export default Review
